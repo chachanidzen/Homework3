@@ -1,0 +1,266 @@
+
+
+.header-section{
+	
+	margin: 67px 107px 75px 132px;
+}
+
+.navigation{
+	width: 541px;
+	height: 24px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	
+
+}
+
+.nav-li	{
+	display: inline-flex;
+
+}
+
+.list-item{
+	font-family: 'Lato';
+	color: #3D37F1;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.header-bar{
+	display: flex;
+	justify-content: space-between;
+	
+	align-items: baseline;
+}
+
+.section1-container{
+	width: 1700px;
+	display: flex;
+	margin-left: 132px;
+	margin-top: 75px;
+	padding-bottom: 317px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.text-block{
+
+	width: 600px;
+	height: 300px;
+}
+
+.title-text{
+	font-family: 'Lato';
+	color: #534D4D;
+	font-size: 78px;
+	font-weight: bold;
+	text-transform: capitalize;
+	line-height: 109px;
+	margin-bottom: 42px;
+}
+
+.title-text-child{
+	font-family: 'Roboto';
+	color: #534D4D;
+	font-size: 22px;
+	width: 600px;
+	height: 103px;
+
+}
+
+.wave{
+	width: 263px;
+	height: 76px;
+	border-radius: 50px;
+	background-color: #3D37F1;
+	margin-top: 83.9px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.wave-text{
+	font-family: 'Poppins';
+	font-size: 23px;
+	color: #FFFFFF;
+	text-align: center;
+
+}
+
+.background{
+	background-image: url('../images/undraw_pair_programming_njlp.png');
+	width: 700px;
+	height: 526px;
+	background-size: contain;
+	margin-left: 305px;
+}
+.advertisment-title{
+	justify-content: center;
+	text-align: center;
+}
+.advertisment-title-text2{
+	font-family: 'Roboto';
+	color: #747474;
+	font-size: 18px;
+	line-height: 28px;
+	width: 712px;
+	height: 85px;
+	margin: 0 auto;
+	justify-content: center;
+	text-align: center;
+	
+
+}
+
+.block-wrapper{
+	width: 1700px;
+	height: 1400px;
+	margin:  0 auto;
+	padding-top: 48px;
+}
+.block{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	
+
+}
+
+.advertisment-block{
+	width: 370px;
+	height: 451px;
+	display: flex;
+	margin-top: 67px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.advertisment-block:nth-child(1){
+	background-color: #FBBA77;
+}
+.advertisment-block:nth-child(2){
+	background-color: #41EAE3;
+}
+
+.advertisment-block:nth-child(3){
+	background-color: #69529F;
+}
+
+.advertisment-block:nth-child(4){
+	background-color: #4386D2;
+	margin-top: 60px;
+}
+
+.advertisment-block:nth-child(5){
+	background-color: #A5A2F6;
+	margin-top: 60px;
+}
+
+.advertisment-block:nth-child(6){
+	background-color: #FF8088;
+	margin-top: 60px;
+}
+
+.advertisment-title-text{
+	font-family: 'Lato';
+	font-size:  40px;
+	color: #5A5454;
+	margin-bottom: 21px;
+	
+} 
+
+.advertisment-box-title{
+	font-family: 'Lato';
+	font-size:  22px;
+	color: #FFFFFF;
+}
+ 
+ .block-title{
+ 	font-family: 'Lato';
+ 	font-size: 20px;
+ 	font-weight: bold;
+ 	color: #3D37F1;
+ 	text-transform: uppercase;
+ 	margin-bottom: 17px;
+ 	margin-top: 50px;
+ }
+
+.advertisment-icon{
+	margin-bottom: 57px;
+}
+
+.advertisment-text{
+	font-family: 'Roboto';
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 26px;
+	width: 328px;
+	height: 62px;
+	text-align: center;
+	margin-top: 13.1px;
+	margin-bottom: 11px;
+}
+
+
+.btn-readmore{
+	width: 131px;
+	height: 45px;	
+	border-radius: 23px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #F5F5F5;
+	position: relative;
+
+
+}
+
+.btn-readmore-text{
+	font-family: 'Roboto';
+	font-size: 15px;
+    color: #FFFFFF;
+	 top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+	
+}
+
+.advertisment-block:nth-child(1) .btn-readmore{
+	background-color: #FFFFFF;
+		
+}
+.advertisment-block:nth-child(1) .btn-readmore-text{
+	color: #4B647E;
+}
+.advertisment-block:nth-child(2) .btn-readmore{
+	background-color: #41EAE3;	
+}
+
+.advertisment-block:nth-child(3) .btn-readmore{
+	background-color: #69529F;
+}
+
+.advertisment-block:nth-child(4) .btn-readmore{
+	background-color: #4386D2;
+	
+}
+
+.advertisment-block:nth-child(5) .btn-readmore{
+	background-color: #A5A2F6;
+}
+
+.advertisment-block:nth-child(6) .btn-readmore{
+	background-color: #FF8088;
+}
+
+
+
